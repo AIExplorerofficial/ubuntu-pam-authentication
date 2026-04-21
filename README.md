@@ -64,6 +64,11 @@ The system should prompt for your password, followed by a 6-digit TOTP code. Ent
 
 If login succeeds, 2FA is active. You can close both terminals.
 
+### Troubleshooting
+
+**Correct code being rejected?**
+Make sure the time on your PC and your phone are both set to automatic/network time. TOTP codes are time-based and will fail if the clocks don't match.
+
 ---
 
 ### Recovery (Reliable Method)
